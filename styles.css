@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
   text-decoration: none;
-  
 }
-html,body {
+html,
+body {
   background-color: rgb(34, 33, 33);
   height: 100%;
   margin: 0;
@@ -16,8 +16,9 @@ html,body {
 
   margin: 0 auto;
   width: 100%;
-  max-width: 640px;
+  max-width: 672px;
   height: 100%;
+  padding: 16px;
 }
 
 nav {
@@ -36,18 +37,17 @@ a {
   margin-right: 15px;
 }
 
-header{
-    margin-bottom: auto;
+header {
+  margin-bottom: auto;
 }
 
 #right {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
 }
 .left {
   font-size: 16px;
-
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   border-bottom: 3px solid transparent;
   padding-bottom: 8px;
@@ -60,48 +60,56 @@ header{
 .left:hover {
   border-bottom: 3px solid rgb(145, 144, 144);
 }
-
-main {
-  margin: 20% 0;
+.container {
+  text-align: center;
 }
 
 h1 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",;
   text-align: center;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 39px;
   color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-p {
+.p1 {
   color: white;
   text-align: center;
   line-height: 1.5;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 16px;
+  margin-top: 0;
 }
 
 button {
-  padding: 15px;
+  padding: 8px 16px;
   border-radius: 10px;
 }
 .button2 {
+  margin: 0;
   color: black;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.container {
+
+footer {
+  margin-top: auto;
   text-align: center;
-}
-footer{
-    margin-top: auto;
 }
 
 .ftr {
+  font-family: 'Roboto', sans-serif;
   color: rgb(139, 137, 139);
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 .ftra {
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-decoration: underline;
+  margin: 0;
 }
