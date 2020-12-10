@@ -69,7 +69,7 @@ h2{
 }
 
 h1 {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+  font-family:"Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji";
   text-align: center;
@@ -124,5 +124,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .container{
+display: block;
+  }
+  footer{
+    display: block;
   }
 }
